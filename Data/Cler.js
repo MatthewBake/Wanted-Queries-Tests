@@ -1,0 +1,21 @@
+module.exports = (ClerBtn, ModifyPage) => {
+    ClerBtn
+                ClerBtn.click('@modifyScreen')
+                .editFields(ModifyPage)
+                .click('@ClrBtn')
+                ClerBtn.expect.element("@Header").value.equals("")
+                ClerBtn.expect.element("@MKE").value.equals("")
+                ClerBtn.expect.element("@ORI").value.equals("")
+                ClerBtn.expect.element("@Name").value.equals("")
+                ClerBtn.expect.element("@Sex").value.equals("")
+                ClerBtn.expect.element("@Race").value.equals("")
+                ClerBtn.expect.element("@Height").value.equals("")
+                ClerBtn.expect.element("@Weight").value.equals("")
+                ClerBtn.expect.element("@DLN").value.equals("")
+                ClerBtn.expect.element("@DLS").value.equals("")
+                ClerBtn.expect.element("@DLEx").value.equals("")
+                ClerBtn.expect.element("@Plate").value.equals("")
+                ClerBtn.expect.element("@PlateSt").value.equals("")
+                ClerBtn.expect.element("@PlateEx").value.equals("")
+                ClerBtn.expect.element("@WarID").value.equals("")
+}

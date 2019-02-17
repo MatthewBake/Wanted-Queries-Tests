@@ -18,4 +18,4 @@ module.exports = (clrButton, EnterPage) => {
                 clrButton.expect.element("@Plate").value.equals("")
                 clrButton.expect.element("@PlateSt").value.equals("")
                 clrButton.expect.element("@PlateEx").value.equals("")
-}
+}               

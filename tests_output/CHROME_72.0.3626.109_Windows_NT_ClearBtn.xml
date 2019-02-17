@@ -5,9 +5,9 @@
 
   <testsuite name="ClearBtn"
     errors="0" failures="0" hostname="" id="" package="ClearBtn" skipped="0"
-    tests="1" time="11.51" timestamp="">
+    tests="1" time="11.71" timestamp="">
   
-    <testcase name="QO2MB-77: Clear Button Test" classname="ClearBtn" time="11.51" assertions="33">
+    <testcase name="QO2MB-77: Clear Button Test" classname="ClearBtn" time="11.71" assertions="33">
 
     
 

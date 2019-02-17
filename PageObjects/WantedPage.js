@@ -69,7 +69,10 @@ editFields:  function(fieldInfo){
             this
                 .setValue('@PlateEx', fieldInfo.PlateEx)
         }
-      
+        if(fieldInfo.PlateSt){
+            this
+                .setValue('@PlateSt', fieldInfo.PlateSt)
+        }
         if(fieldInfo.CanRes){
             this
                 .setValue('@CanRes', fieldInfo.CanRes)
@@ -111,8 +114,8 @@ module.exports = {
         WarID: 'input[name="widInput"]',
         CanRes: 'input[name="resInput"]',
         CanDat: 'input[name="datInput"]',
-        qTitle: 'input[name="queryTitle"]',
-        qBody: 'input[name="queryBody"]',
+        qTitle: 'span[name="queryTitle"]',
+        qBody: 'span[name="queryBody"]',
         qHeader: "validHeader",
         eList:'#errorList',
         savBtn: '#saveBtn',
